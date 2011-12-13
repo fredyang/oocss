@@ -1,6 +1,8 @@
 /* simple table @extends data table */
 .simpleTable {
-	padding: 20px; /* doesn't this break stuff??? ok for win & mac on Safari, FF, chrome, opera. OK on IE6/7/8.   */
+	padding: 20px;
+	/* doesn't this break stuff??? ok for win & mac on Safari,
+	FF, chrome, opera. OK on IE6/7/8.   */
 }
 
 .simpleTable table {

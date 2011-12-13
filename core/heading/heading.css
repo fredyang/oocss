@@ -1,5 +1,6 @@
 /* ====== Headings ====== */
 /* .h1-.h6 classes should be used to maintain the semantically appropriate heading levels - NOT for use on non-headings */
+/*use all percentage unit*/
 h1, .h1 {
 	font-size: 196%;
 	font-weight: normal;
@@ -42,7 +43,8 @@ h6, .h6 {
 	color: #333;
 }
 
-/* if additional headings are needed they should be created via additional classes, never via location dependant styling */
+/* if additional headings are needed they should be created via
+additional classes, never via location dependant styling */
 .category {
 	font-size: 108%;
 	font-weight: normal;
