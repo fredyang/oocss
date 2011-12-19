@@ -5,12 +5,16 @@
  * Cell takes precedence over table row and table
  * Table row takes precedence over table
  */
-/*data apply to the container of the table but not the table itself*/
+/*data apply to the container of the table but not the table itself
+the reason is that we want to apply position:relative to the container of the table,
+to achieve flexible positioning for the table. You can add an additional div to wrap
+the table, or apply this to an existing container
+*/
 .data {
 	position: relative;
 	zoom: 1;
-	vertical-align: top;
-	text-align: left;
+	vertical-align: top; /*non-inheritable*/
+	text-align: left; /*inheritable*/
 	/*border-right:solid 1px transparent;*/
 	/* border fixes a FF2 bug which causes the data table to overlay its borders*/
 }
