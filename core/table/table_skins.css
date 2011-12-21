@@ -12,11 +12,13 @@
 }
 
 .simpleTable th, .simpleTable td {
-	border: 1px solid #AE0345;
+	border: 1px solid #4E7178;
+	/*border: 1px solid #AE0345;*/
 }
 
 .simpleTable thead tr {
-	background-color: #fff0f8;
+	/*background-color: #fff0f8;*/
+	background-color: #F1F7E2;
 }
 
 .simpleTable th {

@@ -5,21 +5,24 @@ h1, .h1 {
 	font-size: 196%;
 	font-weight: normal;
 	font-style: normal;
-	color: #AE0345;
+	color: #202B30;
+	/*color: #AE0345;*/
 }
 
 h2, .h2 {
 	font-size: 167%;
 	font-weight: normal;
 	font-style: normal;
-	color: #AE0345;
+	color: #4E7178;
+	/*color: #AE0345;*/
 }
 
 h3, .h3 {
 	font-size: 146.5%;
 	font-weight: normal;
 	font-style: normal;
-	color: #DF2B72;
+	color: #4FA9B8;
+	/*color: #DF2B72;*/
 }
 
 h4, .h4 {
@@ -33,7 +36,7 @@ h5, .h5 {
 	font-size: 108%;
 	font-weight: bold;
 	font-style: normal;
-	color: #AE0345;
+	color: #202B30;
 }
 
 h6, .h6 {
