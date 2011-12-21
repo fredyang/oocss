@@ -1,5 +1,4 @@
-input {
-	margin-right: 0.5em;
+input[type=button] {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
