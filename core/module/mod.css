@@ -3,6 +3,28 @@ Copyright (c) 2009, Nicole Sullivan. All rights reserved.
 Code licensed under the BSD License:
 version: 0.2
 */
+
+/*
+the structure of module is like
+	<div class="mod">
+			<b class="top">
+				<b class="tl"></b>
+				<b class="tr"></b>
+			</b>
+
+			<div class="inner">
+				<div class="hd">
+				</div>
+				<div class="bd">
+				</div>
+			</div>
+
+			<b class="bottom">
+				<b class="bl"></b>
+				<b class="br"></b>
+			</b>
+	</div>
+*/
 /* **************** BLOCK STRUCTURES ***************** */
 /* mod */
 .mod {
