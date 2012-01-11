@@ -52,6 +52,8 @@ a:visited {
 	color: #005a9c;
 }
 
+/*because mose of them we now use ol or ul for navigation purpose, we don't use
+it for pure list purpose, for this kind of purpose we need to add a class simpleList*/
 /* ====== Lists ======*/
 /*because ol li, ul li style is reset in libraries.css, we need use
 simpleList to add it here.*/
@@ -67,6 +69,7 @@ ul.simpleList li {
 	margin-left: 40px;
 }
 
+/*the following content construct are very biased, use it if you want*/
 /* ====== blockquote ====== */
 cite {
 	display: block;
