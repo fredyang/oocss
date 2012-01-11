@@ -46,8 +46,11 @@ h6, .h6 {
 	color: #333;
 }
 
+
 /* if additional headings are needed they should be created via
 additional classes, never via location dependant styling */
+
+/*the following is for demo purpose*/
 .category {
 	font-size: 108%;
 	font-weight: normal;
