@@ -9,6 +9,7 @@ the fonts try to normalize back the font
 @import url("libraries.css");
 
 /*template.css is for page level layout purpose*/
+/*if I could, I would rename it to layout.css*/
 @import url("template/template.css");
 /*@import url("template/template_debug.css");*/
 
@@ -16,7 +17,9 @@ the fonts try to normalize back the font
 @import url("grid/grids.css");
 /*@import url("grid/grids_debug.css");*/
 
-/*mod is for rectangle box style*/
+/*module is highly reusable pattern to host content, it act as
+content container
+*/
 @import url("module/mod.css");
 @import url("module/mod_skins.css");
 /*@import url("module/mod_debug.css");*/
