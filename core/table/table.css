@@ -5,6 +5,7 @@
  * Cell takes precedence over table row and table
  * Table row takes precedence over table
  */
+
 /*data apply to the container of the table but not the table itself
 the reason is that we want to apply position:relative to the container of the table,
 to achieve flexible positioning for the table. You can add an additional div to wrap
@@ -24,6 +25,11 @@ the table, or apply this to an existing container
 	/*this speed up the rendering of the table*/
 	table-layout: fixed;
 }
+
+.data th, .data td {
+	padding: 3px 10px
+}
+
 
 th, td {
 	/*vertical-align:top;*/
@@ -56,6 +62,3 @@ th, td {
 	vertical-align: middle;
 }
 
-.data th, .data td {
-	padding: 3px 10px
-}
