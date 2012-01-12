@@ -26,6 +26,8 @@ body {
 	content: " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
 }
 
+/* .page element contains everything, in template.html demo page <h1> is not included, this
+is for demo use, just ignore that in production*/?
 .page {
 	margin: 0 auto;
 	width: 950px;
@@ -35,6 +37,7 @@ body {
 /* wraps other template elems to set width */
 /* text-align IE5.5 */
 /* "old school" and "liquid" extend page to allow for different page widths */
+/*you can use it with leftColumn and rightColumnn*/
 .oldSchool {
 	width: 750px;
 }
