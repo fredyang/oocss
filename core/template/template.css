@@ -27,7 +27,7 @@ body {
 }
 
 /* .page element contains everything, in template.html demo page <h1> is not included, this
-is for demo use, just ignore that in production*/?
+is for demo use, just ignore that in production*/
 .page {
 	margin: 0 auto;
 	width: 950px;
