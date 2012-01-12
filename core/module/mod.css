@@ -17,6 +17,8 @@ the structure of module is like
 				</div>
 				<div class="bd">
 				</div>
+				<div class="ft">
+				</div>
 			</div>
 
 			<b class="bottom">
@@ -94,6 +96,8 @@ b.top, b.top b, b.bottom, b.bottom b {
 	background-position: center bottom;
 	_zoom: 1;
 }
+/* end of  mod */
+
 
 /* this zoom required for IE5.5 only*/
 /* complex */
@@ -121,6 +125,8 @@ b.top, b.top b, b.bottom, b.bottom b {
 .complex .bottom {
 	height: 5px; /*margin-top:-10px;*/
 }
+/*end of complex*/
+
 
 /* pop */
 .pop {
