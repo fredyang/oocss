@@ -56,6 +56,8 @@ s:small, m:medium, l:large, n:none
 */
 @import url("spacing/space.css");
 
+@import url("position/position.css");
+
 @import url("table/table.css");
 @import url("table/table_skins.css");
 /*@import url("table/table_debug.css");*/
