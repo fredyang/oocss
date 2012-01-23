@@ -56,3 +56,11 @@
 .clear_r {
 	clear: right;
 }
+
+.abs {
+	position: absolute;
+}
+
+.rel {
+	position: relative;
+}
