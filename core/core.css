@@ -8,23 +8,77 @@ the fonts try to normalize back the font
 */
 @import url("libraries.css");
 
-/*template.css is for page level layout purpose*/
-/*if I could, I would rename it to layout.css*/
+/*think of template.css as layout.css, template.css is for page level layout purpose
+to use the template.css, your markup need to written match the selector that is
+used in the css file
+<div class="page">
+	<div class="head"></div>
+	<div class="body">
+		<div class="leftCol"></div>
+		<div class="rightCol"></div>
+		<div class="main"></div>
+	</div>
+	<div class="foot"></div>
+</div
+*/
 @import url("template/template.css");
+
 /*@import url("template/template_debug.css");*/
 
-/*grid is for horizontal partition */
+/*grid is for horizontal partition
+to use grid your markup should follow the following convention
+<div class="line">
+	<div class="unit size1Of5"></div>
+	<div class="unit size1Of5"></div>
+	<div class="unit size1Of5"></div>
+	<div class="unit size1Of5"></div>
+	<div class="unit size1Of5 lastUnit"></div>
+</div>
+*/
 @import url("grid/grids.css");
 /*@import url("grid/grids_debug.css");*/
 
-/*module is highly reusable pattern to host content, it act as
-content container
+/*
+module is highly reusable pattern to host content, it act as content container
+to use the mod.css, your markup should follow the following convention
+<div class="mod">
+	<b class="top">
+		<b class="tl"></b>
+		<b class="tr"></b>
+	</b>
+	<div class="inner">
+		<div class="hd">
+			<h3>mod<h3>
+		</div>
+		<div class="bd">
+
+		</div>
+		<div class="ft">
+
+		</div>
+	</div>
+	<b class="bottom">
+		<b class="bl"></b>
+		<b class="br"></b>
+	</b>
+</div>
+The reason that we have extra class and element is that we
+want flexibility
 */
 @import url("module/mod.css");
 @import url("module/mod_skins.css");
 /*@import url("module/mod_debug.css");*/
 
-/*media is for repeatable pattern, left is a image, right is text*/
+/*media is for repeatable pattern, left is a image, right is text
+to use the css, use the following markup
+<div class="media">
+	<a class="img">
+		<img src="" />
+	</a>
+	<div class="bd"></div>
+</div>
+*/
+
 @import url("media/media.css");
 /*@import url("media/media_debug.css");*/
 
