@@ -52,8 +52,9 @@ a:visited {
 	color: #005a9c;
 }
 
-/*because mose of them we now use ol or ul for navigation purpose, we don't use
-it for pure list purpose, for this kind of purpose we need to add a class simpleList*/
+/*Because most of time we now use ol or ul for navigation purpose, so we reset it.
+But if we really want to use it as presentable list, we need to add a class simpleList*/
+
 /* ====== Lists ======*/
 /*because ol li, ul li style is reset in libraries.css, we need use
 simpleList to add it here.*/
