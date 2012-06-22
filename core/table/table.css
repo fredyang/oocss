@@ -6,7 +6,8 @@
  * Table row takes precedence over table
  */
 
-/*data apply to the container of the table but not the table itself
+/*
+the .data class apply to the container of the table but not the table itself
 the reason is that we want to apply position:relative to the container of the table,
 to achieve flexible positioning for the table. You can add an additional div to wrap
 the table, or apply this to an existing container
@@ -16,6 +17,7 @@ the table, or apply this to an existing container
 	zoom: 1;
 	vertical-align: top; /*non-inheritable*/
 	text-align: left; /*inheritable*/
+
 	/*border-right:solid 1px transparent;*/
 	/* border fixes a FF2 bug which causes the data table to overlay its borders*/
 }
@@ -35,30 +37,4 @@ th, td {
 	/*vertical-align:top;*/
 }
 
-/* horizontal alignment helper class*/
-/*center*/
-.txtC, table .txtC, table tr .txtC {
-	text-align: center;
-}
-
-.txtL, table .txtL, table tr .txtL {
-	text-align: left;
-}
-
-.txtR, table .txtR, table tr .txtR {
-	text-align: right;
-}
-
-/* vertical alignment */
-.txtT, table .txtT, table tr .txtT {
-	vertical-align: top;
-}
-
-.txtB, table .txtB, table tr .txtB {
-	vertical-align: bottom;
-}
-
-.txtM, table .txtM, table tr .txtM {
-	vertical-align: middle;
-}
 
