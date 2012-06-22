@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, dl, p, blockquote, .media {
 }
 
 h1, h2, h3, h4, h5, h6, img {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 }
 
 pre {
@@ -24,11 +24,11 @@ table h1, table h2, table h3, table h4, table h5, table h6, table p, table ul, t
 /* spacing helpers
 p,m = padding,margin
 a,t,r,b,l,h,v = all,top,right,bottom,left,horizontal,vertical
-s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
+n,s,m,l,n = none(0px),small(5px),medium(10px),large(20px)
 */
 
 .ptn, .pvn, .pan {
-	padding-top: 0px !important
+	padding-top: 0 !important
 }
 
 .pts, .pvs, .pas {
@@ -44,7 +44,7 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 }
 
 .prn, .phn, .pan {
-	padding-right: 0px !important
+	padding-right: 0 !important
 }
 
 .prs, .phs, .pas {
@@ -60,7 +60,7 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 }
 
 .pbn, .pvn, .pan {
-	padding-bottom: 0px !important
+	padding-bottom: 0 !important
 }
 
 .pbs, .pvs, .pas {
@@ -76,7 +76,7 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 }
 
 .pln, .phn, .pan {
-	padding-left: 0px !important
+	padding-left: 0 !important
 }
 
 .pls, .phs, .pas {
@@ -92,7 +92,7 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 }
 
 .mtn, .mvn, .man {
-	margin-top: 0px !important
+	margin-top: 0 !important
 }
 
 .mts, .mvs, .mas {
@@ -108,7 +108,7 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 }
 
 .mrn, .mhn, .man {
-	margin-right: 0px !important
+	margin-right: 0 !important
 }
 
 .mrs, .mhs, .mas {
@@ -124,7 +124,7 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 }
 
 .mbn, .mvn, .man {
-	margin-bottom: 0px !important
+	margin-bottom: 0 !important
 }
 
 .mbs, .mvs, .mas {
@@ -140,7 +140,7 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 }
 
 .mln, .mhn, .man {
-	margin-left: 0px !important
+	margin-left: 0 !important
 }
 
 .mls, .mhs, .mas {
